@@ -1,0 +1,85 @@
+-- Düzgün və oxunaqlı CSS kodu yazmaq üçün lazım olabiləcək 10 qayda yazın:
+
+1) Css kodu yazarken tekrarlara yol verilmemelidir. 
+
+2) Kodu yazarken html taglarindan iki ve daha coxuna eyni xususiyyetler 
+verilecekse onu evvelceden mueyyenlesdirmeli, kodlarimizi ona gore 
+yazmali ve bir defe xususiyyeti vermekle her iki taga o xususiyyetleri elave 
+etmeyi bacarmaliyiq
+
+3) Oxunaqli kod yazmaq ucun commentlerden istifade etmeliyik. Daha sonra koda 
+baxacaq insan onun ne oldugunu, harada neye muraciet edildiyini basa dusmelidir.
+
+4) Css kodlarini yazarken bir elementin bir nece xususiyyetinden istifade edirikse
+onu alt-alta yox yan-yana tek setirde yazmaliyiq.
+
+5) 
+
+
+
+
+
+-- Font Awesome kimi ikon fontları varmı? Varsa qisaca haqlarinda məlumat verin
+
+Font awesome kimi icon fontlari tebiki var. Misal olaraq:
+
+1) http://fontello.com/ - Awesome kimi buradanda icon fontlarini yuklemek mumkundur.
+
+2) http://weloveiconfonts.com/
+
+3) http://zavoloklom.github.io/material-design-iconic-font/icons.html
+
+4) http://zurb.com/playground/foundation-icon-fonts-3
+
+5) http://themify.me/themify-icons
+
+6) http://ionicons.com/
+
+7) https://design.google.com/icons/
+
+8) https://octicons.github.com/icon/device-desktop/
+
+9) https://useiconic.com/open/
+
+10) http://www.orlandotm.com/payment-webfont/
+
+
+
+
+
+
+
+-- Azərbaycan şriftlərini dəstəkləyən 10 ədəd font ailəsinin adını və istifadə qaydasını yazın
+Serif
+Sans-serif
+Display
+Handwriting
+Mosospace
+
+
+
+
+Eger her hansi bir yerden misal ucun serverden fontlari cekib istifade edilecekse 
+@font-face den istifade edilir. icerisine font-family ile fontun adini src ile eger
+linkden oxuyacaqsa url, localdan oxuyacaqsa local yerini yaziriq. birder formatini 
+qeyd edirik format ( eot ) kimi. ttf de svg novleride ola biler. Her brovzer ucun 
+ferqlilik gosterir
+
+
+
+Google fontsdan latin elifbasi herflerini destekleyen bir fontu isletmek ucun 
+hemin fontun linkini 
+
+<link href='https://fonts.googleapis.com/css?family=Open+Sans&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+yeni bu sekildeki linki html faylinda link css den sonra yaziriq ve 
+ele bu linkin oldugu yerde 
+
+font-family: 'Open Sans', sans-serif;
+
+kopyaliyiriq ve css de isletmek istediyimiz yere yaziriq. Misal ucun 
+body {font-family: 'Open Sans', sans-serif; }
+kimi yazdiqda Open sans fontunu butun paraqraflarda gore bilerik. 
+
+
+
